@@ -15,7 +15,6 @@ function FinishScreen({
   dispatch,
 }: FinishScreenProps) {
   const percentage = (points / totalPoints) * 100
-  console.log(highScore)
   return (
     <>
       <p className="result">

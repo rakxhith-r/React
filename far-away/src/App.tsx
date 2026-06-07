@@ -7,7 +7,6 @@ import Stats from "./components/Stats"
 
 function App() {
   const [items, setItems] = useState<itemProps[]>([])
-  console.log(items)
   function handleAddItems(item: itemProps) {
     setItems((items) => [...items, item])
   }

@@ -9,10 +9,8 @@ type QuestionComponentProps = {
 
 function Question({ question, dispatch, answer }: QuestionComponentProps) {
   const { correctOption } = question
-  console.log(correctOption)
   const hasAnswered = answer !== null
 
-  console.log(question)
   return (
     <div>
       <h4>{question.question}</h4>

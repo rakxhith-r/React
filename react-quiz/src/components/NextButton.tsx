@@ -10,7 +10,6 @@ export interface NextButtonProps {
 
 function NextButton({ dispatch, answer, numQuestion, index }: NextButtonProps) {
   if (answer === null) return null
-  console.log(numQuestion, index)
   return index === numQuestion - 1 ? (
     <>
       <button
