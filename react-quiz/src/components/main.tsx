@@ -1,11 +1,11 @@
 import { ReactNode } from "react"
 
-type LayoutProps = {
+export type LayoutProps = {
   children: ReactNode
 }
 
 function Main({ children }: LayoutProps) {
-  return <main>{children}</main>
+  return <main className="main">{children}</main>
 }
 
 export default Main
