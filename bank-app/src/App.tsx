@@ -65,7 +65,6 @@ function reducer(
 
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState)
-  console.log(state)
   return (
     <>
       <h1>useReducer Bank Account</h1>
